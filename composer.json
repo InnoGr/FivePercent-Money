@@ -1,0 +1,26 @@
+{
+    "name": "fivepercent/money",
+    "description": "Immutable Money for working with finance",
+    "keywords": [ "money" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Zhuk",
+            "email": "zhuk2205@gmail.com"
+        },
+
+        {
+            "name": "Dmitry Krasun",
+            "email": "krasun.net@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "autoload": {
+        "psr-4": { "FivePercent\\Component\\Money\\": "src/" }
+    }
+}
